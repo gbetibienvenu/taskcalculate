@@ -1,0 +1,9 @@
+x = 10
+y = 5
+z = 6
+v = 18
+print(z+x)
+print(x-y)
+print(y*z)
+print(v/z)
+print(v%y)
