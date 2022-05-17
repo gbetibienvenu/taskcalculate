@@ -1,0 +1,6 @@
+firstRole=10
+secondRole=3
+
+print(firstRole*secondRole)
+print(firstRole+secondRole)
+print(firstRole % secondRole)
