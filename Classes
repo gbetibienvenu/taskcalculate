@@ -1,0 +1,19 @@
+
+   class Student:
+    # [assignment] Skeleton class. Add your code here
+    age=input(int(enter age))
+    change_name ="peter"
+    
+    def __init__(self):
+        pass
+
+
+
+Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
+
+# Expected methods
+Bob.change_name("Peter")
+Bob.change_age(30)
+Bob.add_track("wordpress")
+Bob.get_score()
+       
