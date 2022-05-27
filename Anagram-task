@@ -1,0 +1,19 @@
+
+    def find_anagrams(letter1,letter2):
+        print(find_anagrams("stool","tools"))
+  
+   # [assignment] Add your code here
+    letter1 = "race"
+	letter2 = "care"
+   letter1 = input("enter letter: ")
+   letter2 = input("reenter letter: ")
+   
+   if(sorted(letter1) == sorted(letter2)):
+  
+      return true
+     
+    else:
+        
+     return false
+       
+         
