@@ -1,0 +1,21 @@
+
+def read_file_content(story.txt):
+    # [assignment] Add your code here 
+    with open(story.text) as
+     f: contents = f.read()
+     print(contents)
+    
+    return contents
+
+
+def count_words(contents):
+    text = read_file_content("./story.txt")
+    # [assignment] Add your code here
+contents = [ ] 
+with open('story.txt') as f: 
+lines = f.readcontents() 
+count = 0 for line in lines:
+     count += 1 
+     print(f'contents {count}: {contents}')
+     
+    return contents
